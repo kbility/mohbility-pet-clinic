@@ -26,9 +26,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>10</java.version>
-        <start-class>com.mohbility.sfgpetclinic.SfgPetClinicApplication</start-class>
-
-
     </properties>
 
     <dependencies>
@@ -41,6 +38,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.mohbility.sfgpetclinic.SfgPetClinicApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
