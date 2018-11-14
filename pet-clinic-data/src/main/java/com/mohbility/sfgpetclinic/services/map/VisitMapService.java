@@ -2,6 +2,7 @@ package com.mohbility.sfgpetclinic.services.map;
 
 import com.mohbility.sfgpetclinic.model.Visit;
 import com.mohbility.sfgpetclinic.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
@@ -10,6 +11,7 @@ import java.util.Set;
  * @author: kbility
  * @Date: 11/12/2018
  */
+@Service
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
 
