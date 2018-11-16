@@ -42,6 +42,18 @@
                     <mainClass>com.mohbility.sfgpetclinic.SfgPetClinicApplication</mainClass>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <configuration>
+                    <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
+    <scm>
+        <developerConnection>https://github.com/kbility/mohbility-pet-clinic.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 </project>
