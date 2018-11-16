@@ -1,5 +1,6 @@
 package com.mohbility.sfgpetclinic.bootstrap;
 
+
 import com.mohbility.sfgpetclinic.model.*;
 import com.mohbility.sfgpetclinic.services.*;
 import org.springframework.boot.CommandLineRunner;
