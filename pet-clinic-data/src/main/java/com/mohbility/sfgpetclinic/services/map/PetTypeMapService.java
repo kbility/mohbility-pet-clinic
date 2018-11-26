@@ -12,7 +12,7 @@ import java.util.Set;
  * @project sfg-pet-clinic
  */
 @Service
-@Profile({"default","map"})
+@Profile({"default", "map"})
 public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
     @Override
     public Set<PetType> findAll() {

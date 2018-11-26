@@ -8,5 +8,5 @@ import org.springframework.data.repository.CrudRepository;
  * @author: kbility
  * @Date: 11/11/2018
  */
-public interface VetRepository extends CrudRepository<Vet,Long> {
+public interface VetRepository extends CrudRepository<Vet, Long> {
 }

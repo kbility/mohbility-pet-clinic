@@ -14,9 +14,9 @@ import java.util.Set;
 @Builder
 @Entity
 @Table(name = "pet")
-public class Pet  extends BaseEntity{
+public class Pet extends BaseEntity {
 
-    @Column(name="name")
+    @Column(name = "name")
     private String name;
 
     @ManyToOne

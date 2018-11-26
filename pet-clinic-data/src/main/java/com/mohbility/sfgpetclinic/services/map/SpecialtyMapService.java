@@ -12,7 +12,7 @@ import java.util.Set;
  * @project sfg-pet-clinic
  */
 @Service
-@Profile({"default","map"})
+@Profile({"default", "map"})
 public class SpecialtyMapService extends AbstractMapService<Specialty, Long> implements SpecialtyService {
 
     @Override
